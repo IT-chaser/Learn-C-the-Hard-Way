@@ -1,0 +1,10 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     ex14
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _print_arguments, symObjAddr: 0x0, symBinAddr: 0x100003E20, symSize: 0x50 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _print_arguments, symObjAddr: 0x0, symBinAddr: 0x100003E20, symSize: 0x50 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _print_letters, symObjAddr: 0x50, symBinAddr: 0x100003E70, symSize: 0x90 }
+  - { offsetInCU: 0xCF, offset: 0xCF, size: 0x8, addend: 0x0, symName: _can_print_it, symObjAddr: 0xE0, symBinAddr: 0x100003F00, symSize: 0x50 }
+  - { offsetInCU: 0xF7, offset: 0xF7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x130, symBinAddr: 0x100003F50, symSize: 0x2D }
+...
