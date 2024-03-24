@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     if (argc != 2) {
         printf("ERROR: You need one argument.\n");
-        // this is how you abort program
+        // this is how you abort a program
         return 1;
     }
 
@@ -34,20 +35,21 @@ int main(int argc, char *argv[]) {
 
             case 'u':
             case 'U':
-                printf("%d: 'O'\n", i);
+                printf("%d: 'U'\n", i);
                 break;
-            
+
             case 'y':
             case 'Y':
                 if (i > 2) {
                     // it's only sometimes Y
                     printf("%d: 'Y'\n", i);
-                    break;
                 }
+                break;
 
             default:
                 printf("%d: %c is not a vowel\n", i, letter);
         }
     }
+
     return 0;
 }
