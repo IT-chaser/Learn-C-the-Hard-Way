@@ -105,7 +105,6 @@ int *new_sort(int *numbers, int count, char *sort_type) {
     return target2;
 }
 
-
 /**
  * Used to test that we are sorting things correctly
  * by doing the sort and printing it out.
